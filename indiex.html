@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <title>FIzzbuzz programme</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <body>
+            <h1> The Fizz buzz programme</h1>
+
+
+
+
+
+
+            <script>
+                let userInput= parseInt(prompt("Enter the number you will like to fizzbzz"));
+                for(let i=1; i<=userInput; i++){
+                    if (i % 3 === 0 && i % 5 === 0) {
+                        console.log("FizzBuzz");
+                    } 
+                    else if (i % 5 === 0) {
+                        console.log("Buzz");
+                    } 
+                    else if (i % 3 === 0) {
+                        console.log("Fizz");
+                    } 
+                    else {
+                        console.log(i);
+                    }
+                }
+
+            </script>
+        </body>
+    </html>
+</html>
